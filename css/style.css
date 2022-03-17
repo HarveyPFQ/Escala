@@ -25,6 +25,7 @@ a {
 
 .top-section-list-container {
   display: flex;
+  align-items: center;
   text-align: justify;
   font-size: 15px;
   font-family: 'Nunito Sans', sans-serif;
@@ -33,6 +34,11 @@ a {
 
 .top-section-icon {
   margin: 0 10px;
+}
+
+.top-section-arrow-icon {
+  align-self: flex-end;
+  margin-left: 8px;
 }
 
 /* Decoration of bottom section -- NAVBAR */
@@ -87,7 +93,8 @@ a {
   height: 40px;
   padding: 12px 24px;
   border-radius: 3px;
-  margin: 0 10px;
+  margin: 0 10px 0 30px;
+  min-width: 190px;
 }
 
 .bottom-section-button-option p {
