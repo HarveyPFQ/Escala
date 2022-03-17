@@ -1,12 +1,96 @@
+/* The general style*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+li {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
-  font-family: sans-serif;
+}
+
+/* Decoration of top section -- NAVBAR */
+.top-section-list-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.top-section-list-content-item {
+  margin: 20px 16px 12px 16px;
+}
+
+.top-section-list-container {
+  display: flex;
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Nunito Sans', sans-serif;
   color: black;
-  font-weight: bold;
+}
+
+.top-section-icon {
+  margin: 0 10px;
+}
+
+/* Decoration of bottom section -- NAVBAR */
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.bottom-section-logo {
+  padding: 10px;
+}
+
+.bottom-section-options {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-section-options-container {
+  display: flex;
+}
+
+.bottom-section-options-container ul {
+  display: flex;
+  align-self: center;
+}
+
+.bottom-section-item-option {
+  margin: 0 16px;
+}
+
+.bottom-section-item-container {
+  display: flex;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  color: #9E989A;
+}
+
+.bottom-section-item-container img {
+  align-self: flex-end;
+  margin-left: 10px;
+}
+
+/* Decoration of bottom section -- button --NAVBAR */
+
+.bottom-section-button-option {
+  display: flex;
+  align-items: center;
+  background-color: #F34F37;
+  font-family: 'Nunito Sans', sans-serif;
+  height: 40px;
+  padding: 12px 24px;
+  border-radius: 3px;
+  margin: 0 10px;
+}
+
+.bottom-section-button-option p {
+  color: white;
+  text-align: center;
 }
