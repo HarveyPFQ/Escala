@@ -134,11 +134,53 @@
               </figcaption>
             </div>
             <div class="section-one-content-two">
-              <div>
-                <h4>Empieza a probar Escala</h4>
-                <div>
+              <div class="section-one-content-form">
+                <h4 class="section-one-content-two-title-form">
+                  Empieza a probar Escala
+                </h4>
+                <div class="form-container">
                   <form action="">
-
+                    <p class="form-inner-container">
+                      <span class="form-input-container">
+                        <input type="text" name="your-firstname" size="40px" class="form-input" aria-required="true" aria-invalid="false" placeholder="Nombre">
+                      </span>
+                      <span class="form-input-container">
+                        <input type="text" name="your-lastname" size="40px" class="form-input" aria-required="true" aria-invalid="false" placeholder="Apellido">
+                      </span>
+                      <span class="form-input-container">
+                        <input type="text" name="your-email" size="40px" class="form-input" aria-required="true" aria-invalid="false" placeholder="Email">
+                      </span>
+                      <span class="form-input-container">
+                        <select name="yourc-country" class="country-select" aria-invalid="false" id="">
+                          <option value="0">Selecciona el país</option>
+                          <option value="Perú">Perú</option>
+                          <option value="Colombia">Colombia</option>
+                          <option value="Brasil">Brasil</option>
+                        </select>
+                      </span>
+                      <span class="box-checker-container">
+                        <span class="box-checked">
+                          <input type="checkbox" value="Celular" class="input-check-box">
+                          <span class="check-box-text">
+                            Celular
+                          </span>
+                        </span>
+                        <span class="box-checked"  >
+                          <input type="checkbox" name="Fijo" class="input-check-box">
+                          <span class="check-box-text">
+                            Fijo
+                          </span>
+                        </span>
+                      </span>
+                      <span class="box-number-container">
+                        <input type="text" value="+51" class="first-number-container">
+                        <input type="text" aria-required="true" aria-invalid="false" class="second-number-container"  pattern="\d\d-\d\d\d-\d\d-\d\d">
+                      </span>
+                    </p>
+                    <p class="button-form-container">
+                      <input type="submit" value="Prueba Escala Ahora" class="form-button" name="" id="">
+                      <span></span>
+                    </p>
                   </form>
                 </div>
               </div>
