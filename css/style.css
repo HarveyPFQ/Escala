@@ -101,3 +101,18 @@ a {
   color: white;
   text-align: center;
 }
+
+/* Styling the second section */
+
+.section-two-container {
+  display: block; 
+}
+
+.section-two-top-container {
+  display: block;
+}
+
+.section-two-main-title {
+  color: black;
+  font-family: 'Nunito Sans';
+}
