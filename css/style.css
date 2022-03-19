@@ -352,6 +352,75 @@ header nav {
   line-height: normal;
   border: 0;
 }
+
+/* Styling the second section */
+
+.section-two-container {
+  display: block;
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 75px 0;
+}
+
+.section-two-top-container {
+  display: block;
+}
+
+.section-two-main-title {
+  color: black;
+  font-family: 'Nunito';
+  font-size: 30px;
+  letter-spacing: 0;
+  width: auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section-two-main-title span {
+  color: #34768a;
+}
+
+.section-two-second-title {
+  color: #706b6d;
+  font-family: 'Nunito';
+  font-weight: 200;
+  font-size: 18px;
+  width: auto;
+  text-align: center;
+}
+
+.section-two-bottom-image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 37px;
+}
+
+.section-two-image-container {
+  width: 25%;
+  min-width: 236px;
+  text-align: center;
+  padding: 10px;
+}
+
+.section-two-image-container figure {
+  height: 185px;
+  padding: 10px;
+  margin: 0 0 20px;
+}
+
+.figcaption-black {
+  color: #333333;
+  font-family: 'Nunito';
+  font-size: 25px;
+  line-height: 26px;
+  margin: 0 0 20px;
+}
+
+.figcaption-blue {
+  color: #34768A;
+}
+
 /* Styling the Four Section */
 
 .section-four-container {
@@ -371,8 +440,6 @@ header nav {
   font-size: 30px;
   line-height: 35px;
   letter-spacing: 1.1px;
-  text-align: center;
-  margin-bottom: 25px;
 }
 
 .section-four-button {
