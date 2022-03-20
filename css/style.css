@@ -101,3 +101,161 @@ a {
   color: white;
   text-align: center;
 }
+
+/* Styling the Five Section */
+
+.section-five-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
+.section-five-content {
+  width: 100%;
+  max-width: 1175px;
+  margin: 0 auto;
+  
+}
+
+.section-five-title-container {
+  margin-bottom: 50px;
+}
+
+.section-five-main-title {
+  width: 100%;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.section-five-main-title-orange {
+  color: #F34F36;
+}
+
+.section-five-advantage-container {
+  display: flex;
+  margin: 0 auto;
+  /* flex-wrap: wrap; */
+}
+
+.section-five-advantage-grid-container {
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(8,1fr);
+  row-gap: 0;
+  column-gap: 0;
+  grid-auto-rows: 75px;
+  grid-template-areas: 
+  "a a a a . . . ."
+  "a a a a b b b b"
+  ". . . . b b b b"
+  "c c c c . . . ."
+  "c c c c d d d d"
+  ". . . . d d d d"
+  "e e e e d d d d"
+  "e e e e . . . .";
+  margin: 0 7.5% 0 auto;
+}
+
+.section-five-advantage {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  position: relative;
+ }
+ 
+
+.advantage-area-a {
+  grid-area: a;
+
+}
+
+.advantage-area-b {
+  grid-area: b;
+}
+
+.advantage-area-c {
+  grid-area: c;
+}
+
+.advantage-area-d {
+  grid-area: d;
+}
+
+.advantage-area-e {
+  grid-area: e;
+}
+
+.section-five-advantage-image {
+  display: flex;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-five-advantage-image img {
+  display: block;
+  border: 0;
+  height: 110px;
+  width: auto;
+  margin: auto;
+  
+}
+
+.section-five-advantage-description-container {
+  padding: 10px;
+  padding-left: 22.5%;
+}
+
+.section-five-advantage-title-description {
+  color: #140c28;
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.section-five-advantage-purpose {
+  display: block;
+  position: relative;
+  color: #706b6d;
+  padding-left: 12.5PX;
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 16px;
+  list-style-type: 22px;
+
+}
+
+.section-five-advantage-purpose::before {
+  content: "";
+  border-left: 1px solid #34768a;
+  left: 0;
+  top: 5px;
+  bottom: 0;
+  height: 85%;
+  width: 1px;
+  margin: auto 0;
+  display: block;
+  position: absolute;
+}
+
+.section-five-advantage-person-of-description {
+  display: block;
+  position: relative;
+  top: 5px;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #34768a;
+}
