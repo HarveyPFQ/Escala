@@ -803,3 +803,52 @@ header nav {
   font-weight: 700;
   margin-right: auto;
 }
+
+/* Styling the Eight Section */
+
+.section-eight-container {
+  padding: 25px 0 75px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-eight-box {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.section-eight-contain-elements {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-eight-main-title {
+  color: #34768a;
+  margin-bottom: 25px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.section-eight-button {
+  color: white;
+  background-color: #f34f36;
+  font-family: 'Nunito';
+  margin: 0 auto;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  padding: 12.5px 27.5px;
+  border-radius: 7px;
+  width: fit-content;
+  transform: scale(1);
+  cursor: pointer;
+  border: 0;
+}
+
+.section-eight-button:hover {
+  transform: scale(1.1);
+}
